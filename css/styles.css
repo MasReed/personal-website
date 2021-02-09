@@ -52,20 +52,6 @@ p {
     text-align: left;
 }
 
-a {
-    color: inherit;
-    font-family: 'Long Cang', cursive;
-    font-size: 1.4rem;
-    font-weight: 200;
-    text-decoration: none;
-}
-
-a:hover {
-    font-weight: bold;
-    letter-spacing: 2px;
-    text-decoration: none;
-}
-
 
 /******************** CLASS TAGS ********************/
 
@@ -164,6 +150,22 @@ a:hover {
 .social-icon {
     margin: 5px 5px 5px 0;
 }
+
+
+.social-link {
+    color: inherit;
+    font-family: 'Long Cang', cursive;
+    font-size: 1.4rem;
+    font-weight: 200;
+    text-decoration: none;
+}
+
+.social-link:hover {
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
 
 .text-cream {
     color: #F5CDAA;
