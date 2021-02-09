@@ -52,6 +52,21 @@ p {
     text-align: left;
 }
 
+a {
+    color: inherit;
+    font-family: 'Long Cang', cursive;
+    font-size: 1.4rem;
+    font-weight: 200;
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+
 /******************** CLASS TAGS ********************/
 
 .background-white {
@@ -144,6 +159,10 @@ p {
     margin: 150px auto;
     text-align: left;
     width: 50%;
+}
+
+.social-icon {
+    margin: 5px 5px 5px 0;
 }
 
 .text-cream {
