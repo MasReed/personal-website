@@ -1,10 +1,18 @@
 /*
-#5D5B6A  #282638 -> top container bg color
+#5D5B6A  #282638 -> top container bg color 231e32
 #758184  #49464D -> body bg color
 #CFB495  #EBF2FF -> body text
 #F5CDAA  #F3BB8A -> original as 'orange title'
 #F2977B  #FFDA07
 */
+
+/*
+Purple: #282638
+Orange: #ea5e42
+Cream: #f5cdaa
+Gray: #49464d
+White: #EBF2FF
+ */
 
 
 /******************** SELECTOR TAGS ********************/
@@ -55,8 +63,20 @@ p {
 
 /******************** CLASS TAGS ********************/
 
+.background-gray {
+    color: #49464D;
+}
+
 .background-white {
     background-color: #e2edf9;
+}
+
+.background-orange {
+    background-color: #ea5e42;
+}
+
+.background-purple {
+    background-color: #282638;
 }
 
 .bottom-cloud {
@@ -67,7 +87,6 @@ p {
 }
 
 .bottom-container {
-    background-color: #282638;
     margin: 0;
     padding: 10px 0;
     position: relative;
@@ -86,13 +105,15 @@ p {
 }
 
 .copyright-tag {
+    color: white;
     font-size: 0.95rem;
     margin: 30px 0 0;
+    text-align: center;
 }
 
 .footer-link {
     color: #F5CDAA;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: bold;
     margin: 0 20px;
     padding: 10px;
@@ -125,6 +146,7 @@ p {
 }
 
 .middle-container {
+    background-color: #282638;
     margin: 0;
     padding: 100px 0 50px 0;
     position: relative;
@@ -147,8 +169,14 @@ p {
     width: 50%;
 }
 
+.skills-lgi {
+    background-color: #49464d;
+    color: #EBF2FF;
+    text-align: left;
+}
+
 .social-icon {
-    margin: 5px 5px 5px 0;
+    margin: 5px 10px 5px 0;
 }
 
 
@@ -161,11 +189,11 @@ p {
 }
 
 .social-link:hover {
+    color: #ea5e42;
     font-weight: bold;
     letter-spacing: 2px;
     text-decoration: none;
 }
-
 
 .text-cream {
     color: #F5CDAA;
@@ -190,7 +218,7 @@ p {
 }
 
 .top-container {
-    background-color: #282638;
+    background-color: #EA5E42;
     height: 100vh;
     margin: 0;
     position: relative;
