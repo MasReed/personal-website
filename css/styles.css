@@ -68,7 +68,7 @@ h5 {
 
 hr {
     clear: both;
-    margin: 40px 0;
+    margin: 60px 0;
 }
 
 p {
@@ -154,10 +154,10 @@ p {
 
 .footer-link {
     color: #F5CDAA;
+    display: inline-block;
     font-size: 1.4rem;
     font-weight: bold;
-    margin: 0 20px;
-    padding: 10px;
+    padding: 10px 40px;
     text-align: center;
     text-decoration: none;
 }
@@ -204,6 +204,20 @@ p {
     width: 52.325rem;
     max-width: 44%;
     max-height: 54%;
+}
+
+.project-links {
+    color: #49464d;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.project-links:hover {
+    color: #ea5e42;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-decoration: none;
 }
 
 .skills-lgi {
@@ -323,6 +337,20 @@ p {
 
 
 /******************** BOOTSTRAP OVERRIDES ********************/
+
+.card-img-top {
+    background-color: #49464D;
+}
+
+.card-title {
+    margin-top: 0;
+    font-weight: 900;
+}
+
+.card-body {
+    background-color: #F5CDAA;
+}
+
 
 .container {
     padding: 3% 0;
