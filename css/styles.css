@@ -168,6 +168,11 @@ p {
     text-decoration: none;
 }
 
+.footer-space {
+    margin: 80px 0;
+    padding: 10px
+}
+
 .headshot-img {
     border-radius: 100%;
     height: auto;
@@ -205,6 +210,10 @@ p {
     background-color: #49464d;
     color: #EBF2FF;
     text-align: left;
+}
+
+.skills-row {
+    padding-bottom: 68px;
 }
 
 .social-icon {
@@ -269,7 +278,6 @@ p {
 }
 
 /******************** ID TAGS ********************/
-
 
 
 /******************** CSS BUTTON ********************/
