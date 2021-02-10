@@ -22,7 +22,7 @@
 <body>
 
     <!-- Greeting -->
-    <div id="top" class="top-container">
+    <div id="top" class="top-container background-orange">
         <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
         <img class="mid-cloud" src="images/cloud.png" alt="cloud-img">
         <h1 class="text-cream">Hi, <br>I'm Mason.</h1>
@@ -182,12 +182,52 @@
 
 
     <!-- Experience -->
-    <div class="background-white text-purple">
+    <div id="experiences" class="background-white text-purple">
         <div class="container">
             <h2>Experience</h2>
             <hr>
-            <p>2019 - 2020 | Robotics Educator</p>
-            <p>2016 - 2018 | Undergraduate Research Assistant</p>
+
+            <!-- Discovery World -->
+            <div class="experience-item row">
+                <div class="col-md-4">
+                    <h4>Discovery World | Science + Technology Museum</h4>
+                    <p class="experience-time">Apr 2019 - Oct 2020</p>
+                </div>
+                <div class="col-md-8">
+                    <h5>Robotics Educator</h5>
+                    <p>
+                    An experience in STEM outreach and education that included
+                    curriculum development, remote content delivery, and leading
+                    professional development seminars. Introductory programming
+                    in Python, Arduino, and RobotC necessitated strong
+                    student-mentor communication.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Undergraduate Research -->
+            <div class="experience-item row">
+                <div class="col-md-4">
+                    <h4>University of Iowa | Department of Physics and Astronomy</h4>
+                    <p class="experience-time">May 2017 -  Jun 2018</p>
+                </div>
+                <div class="col-md-8">
+                    <h5>Undergraduate Research Assistant</h5>
+                    <p class="experience-description">
+                    Created the world's first augmented reality (AR) sandbox for
+                    gravitational dynamics, dubbed 'Gravbox'. It was adapted
+                    from a project on real-time water flow simulation and was
+                    written in Python along side undergraduate colleagues. This
+                    research project incepted a love for programming,
+                    development, and teamwork.
+                    </p>
+                    <span>
+                        <a class="experience-links" href="http://astro.physics.uiowa.edu/gravbox/index.html">
+                            <i class="fas fa-external-link-alt"></i> Gravbox</a>
+                    </span>
+                </div>
+            </div>
+
             <hr>
         </div>
     </div>
@@ -202,8 +242,8 @@
         </div>
     </div>
 
-    <!-- Social Contacts -->
-    <footer class="bottom-container background-gray">
+    <!-- Footer & Socials -->
+    <div class="background-gray">
         <div class="container">
             <hr>
             <a class="footer-link" href="https://www.linkedin.com/in/masreed/"><i class="social-icon fab fa-linkedin"></i>LinkedIn</a>
@@ -212,7 +252,7 @@
             <hr>
             <p class="copyright-tag">© 2021 Mason Reed.</p>
         </div>
-    </footer>
+    </div>
 
     <!-- Bootstrap Dependencies -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

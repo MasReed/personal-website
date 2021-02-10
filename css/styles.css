@@ -17,8 +17,7 @@ White: #EBF2FF
 
 /******************** SELECTOR TAGS ********************/
 body {
-    background: #49464d;
-    color: #EBF2FF;
+    background-color: #EBF2FF;
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     text-align: center;
@@ -38,7 +37,6 @@ h2 {
     font-weight: normal;
     letter-spacing: 1px;
     margin: 20px;
-    text-align: center;
 }
 
 h3 {
@@ -46,6 +44,22 @@ h3 {
     font-size: 1.5rem;
     font-weight: normal;
     margin: 20px 0;
+    text-align: left;
+}
+
+h4 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.125rem;
+    font-weight: 500;
+    margin: 10px 0;
+    text-align: left;
+}
+
+h5 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.125rem;
+    font-weight: 700;
+    margin: 10px 0;
     text-align: left;
 }
 
@@ -64,7 +78,7 @@ p {
 /******************** CLASS TAGS ********************/
 
 .background-gray {
-    color: #49464D;
+    background-color: #49464D;
 }
 
 .background-white {
@@ -79,25 +93,11 @@ p {
     background-color: #282638;
 }
 
-.hr-orange {
-    border-color: #ea5e42;
-}
-
-.hr-gray {
-    border-color: #49464D;
-}
-
 .bottom-cloud {
     position: absolute;
     left: 24%;
     bottom: 28%;
     transform: scaleX(-1);
-}
-
-.bottom-container {
-    margin: 0;
-    padding: 10px 0;
-    position: relative;
 }
 
 .chili-img {
@@ -117,6 +117,32 @@ p {
     font-size: 0.95rem;
     margin: 30px 0 0;
     text-align: center;
+}
+
+.experience-description {
+    margin-bottom: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.experience-item {
+    margin: 20px 0;
+}
+
+.experience-links {
+    color: #ea5e42;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+}
+
+.experience-links:hover {
+    color: #49464D;
+    text-decoration: none;
+}
+
+.experience-time {
+    padding: 0;
 }
 
 .footer-link {
@@ -143,9 +169,12 @@ p {
     vertical-align: middle;
 }
 
-.title-tag {
-    letter-spacing: 1px;
-    text-align: center;
+.hr-orange {
+    border-color: #ea5e42;
+}
+
+.hr-gray {
+    border-color: #49464D;
 }
 
 .mid-cloud {
@@ -205,12 +234,21 @@ p {
     color: #49464D;
 }
 
+.text-orange {
+    color: #EA5E42
+}
+
 .text-purple {
     color: #282638;
 }
 
 .text-white {
     color: #EBF2FF;
+}
+
+.title-tag {
+    letter-spacing: 1px;
+    text-align: center;
 }
 
 .top-cloud {
@@ -220,7 +258,6 @@ p {
 }
 
 .top-container {
-    background-color: #EA5E42;
     height: 100vh;
     margin: 0;
     position: relative;
@@ -232,8 +269,6 @@ p {
 }
 
 /******************** ID TAGS ********************/
-
-
 
 
 
