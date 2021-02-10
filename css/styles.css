@@ -47,15 +47,6 @@ h3 {
     text-align: left;
 }
 
-h4 {
-    color: #49464d;
-    font-family: 'Roboto Slab', serif;
-    font-size: 1.125rem;
-    font-weight: 500;
-    margin: 10px 0;
-    text-align: left;
-}
-
 h5 {
     color: #282638;
     font-family: 'Roboto Slab', serif;
@@ -103,6 +94,12 @@ p {
     transform: scaleX(-1);
 }
 
+.company-title {
+    color: #49464d;
+    font-weight: 500;
+    letter-spacing: normal;
+}
+
 .copyright-tag {
     color: white;
     font-size: 0.95rem;
@@ -124,6 +121,12 @@ p {
 
 .edu-institute {
     margin: 10px 0;
+}
+
+.edu-vr-a {
+     border-left:1px solid;
+     color: #49464D36;
+     height:134px;
 }
 
 .experience-description {
@@ -208,8 +211,10 @@ p {
 
 .project-links {
     color: #49464d;
-    font-weight: bold;
+    display: block;
+    font-size: .9rem;
     letter-spacing: 1px;
+    text-align: left;
     text-decoration: none;
 }
 
@@ -338,10 +343,6 @@ p {
 
 /******************** BOOTSTRAP OVERRIDES ********************/
 
-.card-img-top {
-    background-color: #49464D;
-}
-
 .card-title {
     margin-top: 0;
     font-weight: 900;
@@ -349,6 +350,14 @@ p {
 
 .card-body {
     background-color: #F5CDAA;
+}
+
+.card {
+    min-height: 650px;
+}
+
+.card-text {
+    font-weight: bold;
 }
 
 
