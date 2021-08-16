@@ -1,1 +1,3 @@
-Some front end code for my interactive resume/cv website.
+A simple, static, personal website built with HTML/CSS
+
+Updates coming soon!
