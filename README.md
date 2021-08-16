@@ -1,3 +1,3 @@
 A simple, static, personal website built with HTML/CSS
 
-Updates coming soon!
+Check back soon for some major updates!
